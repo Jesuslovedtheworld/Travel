@@ -43,8 +43,6 @@ public class TwoUpFollowFragment extends BaseFragment<TwoUpFollowView, TwoUpFoll
         mMapView = new MapView(getContext());
         //开启地图的定位图层
 
-
-
     }
 
 

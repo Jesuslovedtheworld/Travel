@@ -2,7 +2,7 @@ package com.baidu.traveleverywhere.bean;
 
 import java.util.List;
 
-public class TwoUpFollowCity {
+public class TwoUpFollowCityBean {
 
     /**
      * code : 0

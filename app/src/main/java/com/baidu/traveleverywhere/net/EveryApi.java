@@ -12,7 +12,7 @@ import com.baidu.traveleverywhere.bean.HomeWeiBoBean;
 import com.baidu.traveleverywhere.bean.LookAllBean;
 import com.baidu.traveleverywhere.bean.MyFollowBean;
 import com.baidu.traveleverywhere.bean.MyFollowCollectionBean;
-import com.baidu.traveleverywhere.bean.TwoUpFollowCity;
+import com.baidu.traveleverywhere.bean.TwoUpFollowCityBean;
 import com.baidu.traveleverywhere.bean.UpUserMessageBean;
 import com.baidu.traveleverywhere.bean.UserMessageBean;
 
@@ -103,6 +103,8 @@ public interface EveryApi {
     Observable<ResponseBody> Grende();
 
 
-    //Observable<TwoUpFollowCity>
+    //获取地图页面城市列表
+    @GET("api/3.0/map/cities")
+    Observable<TwoUpFollowCityBean> getCityList(@Header("banmi-app-token") String token);
 
 }
