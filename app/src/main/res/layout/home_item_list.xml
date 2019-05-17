@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_413"
+    android:layout_marginTop="@dimen/dp_20">
+
+    <LinearLayout
+        android:id="@+id/ll_big"
+        android:layout_marginTop="@dimen/dp_20"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_413">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_335"
+            android:layout_height="@dimen/dp_413"
+            app:cardCornerRadius="@dimen/dp_20">
+
+            <ImageView
+                android:id="@+id/img_big"
+                android:layout_width="@dimen/dp_335"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:scaleType="fitXY" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/dp_335"
+                android:layout_height="@dimen/dp_116"
+                android:background="@color/g80ffffff">
+
+                <TextView
+                    android:id="@+id/tv_local"
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="@dimen/dp_20"
+                    android:layout_marginLeft="@dimen/dp_35"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:text="东京"
+                    android:textColor="@color/g999999"
+                    android:textSize="@dimen/sp_14" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_37"
+                    android:layout_below="@id/tv_local"
+                    android:layout_marginLeft="@dimen/dp_35"
+                    android:text="银座"
+                    android:textColor="@color/g636363"
+                    android:textSize="@dimen/sp_26" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_25"
+                    android:layout_marginLeft="@dimen/dp_35"
+                    android:layout_marginTop="@dimen/dp_69"
+                    android:text="6小时"
+                    android:textColor="@color/g636363"
+                    android:textSize="@dimen/sp_18" />
+
+                <Button
+                    android:id="@+id/btn_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/dp_36"
+                    android:layout_marginRight="@dimen/dp_15"
+                    android:background="@mipmap/pay_button"
+                    android:text="￥30.00元"
+                    android:textColor="@color/gFFFFFF"
+                    android:textSize="@dimen/sp_15" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>
+

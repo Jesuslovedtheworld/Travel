@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.LoginOrBindFragment">
+
+    <!--todo   修改找布局控件-->
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_22"
+            android:layout_marginLeft="@dimen/dp_23"
+            android:layout_marginTop="@dimen/dp_49"
+            android:text="@string/Hello_for_better_service"
+            android:textColor="@color/gFA6A13"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_38"
+            android:layout_below="@id/hello"
+            android:layout_marginLeft="@dimen/dp_23"
+            android:layout_marginTop="@dimen/dp_9"
+            android:text="@string/Please_log_in_and_travel_around"
+            android:textSize="@dimen/sp_28" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="@dimen/dp_14"
+            android:layout_height="@dimen/dp_21"
+            android:layout_marginLeft="@dimen/dp_31"
+            android:layout_marginTop="@dimen/dp_224"
+            android:background="@mipmap/phone" />
+
+        <TextView
+            android:id="@+id/addnum"
+            android:layout_width="@dimen/dp_28"
+            android:layout_height="@dimen/dp_20"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="@dimen/dp_225"
+            android:layout_toEndOf="@+id/phone"
+            android:layout_toRightOf="@+id/phone"
+            android:text="@string/add86"
+            android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_7"
+            android:layout_height="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_232"
+            android:layout_toRightOf="@id/addnum"
+            android:background="@mipmap/select" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="@dimen/dp_118"
+            android:layout_height="@dimen/dp_22"
+            android:layout_marginLeft="@dimen/dp_106"
+            android:layout_marginTop="@dimen/dp_224"
+            android:background="@null"
+            android:hint="@string/Please_enter_phone_number"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColor="@color/g373737"
+            android:textSize="@dimen/sp_16" />
+
+        <Button
+            android:id="@+id/btn_send_verify_code"
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_263"
+            android:layout_marginTop="@dimen/dp_220"
+            android:background="@mipmap/button_unavailable"
+            android:gravity="center"
+            android:text="@string/send_verification_code"
+            android:textColor="@color/gFEFEFE"
+            android:textSize="@dimen/sp_14" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="@dimen/dp_335"
+            android:layout_height="@dimen/dp_1"
+            android:layout_below="@id/phone"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/colorAccent"></View>
+
+        <ImageView
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginTop="@dimen/dp_448"
+            android:layout_marginLeft="@dimen/dp_160"
+            android:background="@drawable/gra_a9_d8" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_448"
+            android:layout_toRightOf="@id/or"
+            android:background="@drawable/gra_d8_a9" />
+
+        <TextView
+            android:layout_marginTop="@dimen/dp_437"
+            android:id="@+id/or"
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_20"
+            android:text="@string/or"
+            android:layout_marginLeft="@dimen/dp_180"
+            android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:id="@+id/wechat_login"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginTop="@dimen/dp_463"
+            android:layout_marginLeft="@dimen/dp_163"
+            android:background="@mipmap/wechat" />
+
+        <TextView
+            android:id="@+id/tv_qq"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginTop="@dimen/dp_463"
+            android:layout_marginLeft="@dimen/dp_110"
+            android:background="@drawable/umeng_socialize_qq" />
+
+        <TextView
+            android:id="@+id/tv_weibo"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:layout_below="@id/or"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_12"
+            android:layout_toRightOf="@id/wechat_login"
+            android:background="@drawable/umeng_socialize_sina" />
+
+        <TextView
+            android:layout_width="@dimen/dp_51"
+            android:layout_height="@dimen/dp_17"
+            android:layout_below="@id/wechat_login"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/wechat_login"
+            android:textColor="@color/g4DAE46"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp_83"
+            android:id="@+id/tv_protocol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_604"
+            android:text="@string/Login_or_registration"
+            android:textSize="@dimen/sp_13" />
+    </RelativeLayout>
+    <!--<include layout="@layout/base_login" />-->
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/get_verify_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <include layout="@layout/get_verify_code"/>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_bind"
+        android:orientation="vertical"
+        >
+        <include layout="@layout/bind_phnoe_main"/>
+    </LinearLayout>-->
+</LinearLayout>

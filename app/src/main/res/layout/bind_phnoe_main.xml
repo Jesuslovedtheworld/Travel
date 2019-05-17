@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.LoginActivity">
+
+    <ImageView
+        android:id="@+id/img_back_bind"
+        android:layout_width="@dimen/dp_25"
+        android:layout_height="@dimen/dp_25"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_35"
+        android:background="@mipmap/back_white" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="@dimen/dp_201"
+        android:layout_height="@dimen/dp_22"
+        android:layout_marginLeft="@dimen/dp_23"
+        android:layout_marginTop="@dimen/dp_73"
+        android:text="@string/For_the_security_of_your_account"
+        android:textColor="@color/gFA6A13"
+        android:textSize="@dimen/sp_16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_18"
+        android:layout_marginTop="@dimen/dp_104"
+        android:text="@string/Please_bind_your_mobile_phone_number"
+        android:textSize="@dimen/sp_28" />
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="@dimen/dp_14"
+        android:layout_height="@dimen/dp_21"
+        android:layout_marginLeft="@dimen/dp_31"
+        android:layout_marginTop="@dimen/dp_224"
+        android:background="@mipmap/phone" />
+
+    <TextView
+        android:id="@+id/addnum"
+        android:layout_width="@dimen/dp_28"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="@dimen/dp_225"
+        android:layout_toEndOf="@+id/phone"
+        android:layout_toRightOf="@+id/phone"
+        android:text="@string/add86"
+        android:textSize="@dimen/sp_14" />
+
+    <ImageView
+        android:layout_width="@dimen/dp_7"
+        android:layout_height="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_232"
+        android:layout_toRightOf="@id/addnum"
+        android:background="@mipmap/select" />
+
+    <EditText
+        android:id="@+id/et_phone_bind"
+        android:layout_width="@dimen/dp_118"
+        android:layout_height="@dimen/dp_22"
+        android:layout_marginLeft="@dimen/dp_106"
+        android:layout_marginTop="@dimen/dp_224"
+        android:background="@null"
+        android:hint="@string/Please_enter_phone_number"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:textColor="@color/g373737"
+        android:textSize="@dimen/sp_16" />
+
+    <Button
+        android:id="@+id/btn_send_verify_code_bind"
+        android:layout_width="@dimen/dp_90"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_263"
+        android:layout_marginTop="@dimen/dp_220"
+        android:background="@mipmap/button_unavailable"
+        android:gravity="center"
+        android:text="@string/send_verification_code"
+        android:textColor="@color/gFEFEFE"
+        android:textSize="@dimen/sp_14" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="@dimen/dp_335"
+        android:layout_height="@dimen/dp_1"
+        android:layout_below="@id/phone"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/colorAccent"></View>
+    <TextView
+        android:layout_marginLeft="@dimen/dp_83"
+        android:id="@+id/tv_loginOrRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_604"
+        android:text="@string/Login_or_registration"
+        android:textSize="@dimen/sp_13" />
+</RelativeLayout>

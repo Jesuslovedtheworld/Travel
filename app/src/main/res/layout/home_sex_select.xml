@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_300"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dp_30"
+        android:background="@color/gFFFFFF"
+        >
+        <LinearLayout
+            android:background="@color/gFFFFFF"
+            android:layout_width="@dimen/dp_300"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:background="@color/gFFFFFF"
+                android:id="@+id/tv_boy"
+                android:layout_width="@dimen/dp_300"
+                android:layout_height="@dimen/dp_50"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/boy"
+                android:textSize="@dimen/sp_18" />
+
+            <TextView
+                android:background="@color/gFFFFFF"
+                android:id="@+id/tv_girl"
+                android:layout_width="@dimen/dp_300"
+                android:layout_height="@dimen/dp_50"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/girl"
+                android:textSize="@dimen/sp_18" />
+
+            <TextView
+                android:background="@color/gFFFFFF"
+                android:id="@+id/tv_maintain"
+                android:layout_width="@dimen/dp_300"
+                android:layout_height="@dimen/dp_50"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/maintain"
+                android:textSize="@dimen/sp_18" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/tv_dis"
+        android:textSize="@dimen/sp_18"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/btn_concer_50_300"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="@dimen/dp_50" />
+
+</LinearLayout>

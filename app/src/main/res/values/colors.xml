@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gFA6A13">#FA6A13</color>
+    <color name="gC8C8C8">#C8C8C8</color>
+    <color name="gEAEAEA">#EAEAEA</color>
+    <color name="gFEFEFE">#FEFEFE</color>
+    <color name="gFF000000">#FF000000</color>
+    <color name="gD97C37">#D97C37</color>
+    <color name="g4DAE46">#4DAE46</color>
+    <color name="g999999">#999999</color>
+    <color name="g373737">#373737</color>
+    <color name="gFFFFFF">#FFFFFF</color>
+    <color name="gF8F8F8">#F8F8F8</color>
+    <color name="g636363">#636363</color>
+    <color name="ga9a9a9">#a9a9a9</color>
+    <color name="g333333">#333333</color>
+    <color name="gdedede">#dedede</color>
+    <color name="gF5F5F5F">#F5F5F5</color>
+    <color name="gFF9D53">#FF9D53</color>
+    <color name="g000000">#000000</color>
+    <color name="gF0F0F0">#F0F0F0</color>
+    <color name="c_fa6a13">#fa6a13</color>
+    <color name="gFDFDFD">#FDFDFD</color>
+    <color name="g80ffffff">#80FFFFFF</color>
+    <color name="gDCDCDC">#DCDCDC</color>
+    <color name="g666666">#666666</color>
+
+
+</resources>

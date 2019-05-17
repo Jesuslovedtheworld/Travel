@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/img_drop_music"
+        android:layout_width="@dimen/dp_8"
+        android:layout_height="@dimen/dp_8"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:background="@drawable/drop" />
+    <View
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_below="@id/img_drop_music"
+        android:layout_marginLeft="@dimen/dp_23"
+        android:layout_width="@dimen/dp_2"
+        android:layout_height="@dimen/dp_174"
+        android:background="@drawable/drop"
+        />
+
+    <TextView
+        android:id="@+id/tv_time_nice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_toRightOf="@id/img_drop_music"
+        android:text="刚刚" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time_nice"
+        android:layout_marginLeft="@dimen/dp_35"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/new_speech"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="@dimen/dp_320"
+        android:layout_height="@dimen/dp_102"
+        android:layout_below="@id/tv_message"
+        android:layout_marginLeft="@dimen/dp_35"
+        android:layout_marginTop="@dimen/dp_10"
+        app:cardCornerRadius="@dimen/dp_10">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp_320"
+            android:layout_height="@dimen/dp_102">
+
+            <ImageView
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:background="@mipmap/music" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_1"
+                android:layout_marginTop="@dimen/dp_264"
+                android:background="@color/gFA6A13" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_52"
+                android:background="@color/gEAEAEA"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dp_10">
+
+                <TextView
+                    android:id="@+id/tv_baimi_tab_messages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_160"
+                    android:text="22" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_14"
+                    android:layout_height="@dimen/dp_13"
+                    android:layout_marginLeft="@dimen/dp_4"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@mipmap/comment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_60"
+                    android:text="2" />
+
+                <ImageView
+                    android:id="@+id/img_baimi_tab_praise"
+                    android:layout_width="@dimen/dp_12"
+                    android:layout_height="@dimen/dp_14"
+                    android:layout_marginLeft="@dimen/dp_9"
+                    android:layout_marginTop="@dimen/dp_3"
+                    android:background="@mipmap/praise_unselected" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

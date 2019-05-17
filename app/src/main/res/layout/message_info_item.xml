@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_370"
+    android:layout_height="@dimen/dp_100"
+    android:paddingLeft="@dimen/dp_10"
+    android:paddingTop="@dimen/dp_10">
+
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:layout_width="@dimen/dp_370"
+        android:layout_height="@dimen/dp_100"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_20"
+            android:text="@string/system_inform"
+            android:textColor="@color/gFA6A13"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="@dimen/dp_62"
+            android:layout_height="@dimen/dp_17"
+            android:layout_below="@id/info"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/time"
+            android:textColor="@color/g999999" />
+
+        <TextView
+            android:id="@+id/inform"
+            android:layout_width="@dimen/dp_96"
+            android:layout_height="@dimen/dp_22"
+            android:layout_below="@id/time"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/register_success"
+            android:textColor="@color/g636363"
+            android:textSize="@dimen/sp_16" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

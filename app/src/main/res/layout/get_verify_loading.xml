@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/base_verify_code"></include>
+    <TextView
+        android:layout_marginTop="@dimen/dp_45"
+        android:text="@string/Please_later"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/gFA6A13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
